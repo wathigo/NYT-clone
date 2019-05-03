@@ -27,14 +27,20 @@ nav {
   padding-top: 12px;
 }
 
+header .fl-left {
+  margin: 18px;
+}
+
+header .fl-right {
+  margin: 15px 18px;
+}
+
 .fl-left {
   float: left;
-  margin: 18px;
 }
 
 .fl-right {
   float: right;
-  margin: 15px 18px;
 }
 
 .btn {
@@ -83,8 +89,8 @@ nav a {
 
 .heading h3{
   padding: 0;
-  margin: 0;
-  font-size: 35px;
+  margin: 0 0 2px 0;
+  font-size: 30px;
 }
 
 .heading{
@@ -95,6 +101,7 @@ figcaption p{
   margin: 0;
   padding: 0;
   opacity: 0.5;
+  font-size: 14px;
 }
 
 .heading-content figure{
@@ -108,4 +115,50 @@ figcaption p{
 
 figcaption small{
   opacity: 0.9;
+}
+
+.author-info {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.author-info h5 a {
+  color: black;
+  opacity: 0.8;
+  text-decoration: none;
+  border-bottom: 1px solid grey;
+  padding: 0;
+}
+
+.author-info h5 a:hover {
+  border-bottom: 0;
+}
+
+.author-info .date {
+    margin-top: 2px;
+}
+
+.date {
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+.social-icon {
+  background-color: rgba(220,220,220,0.5);
+  border-radius: 100%;
+  color: black;
+  padding: 7px;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+
+}
+.author-info a{
+  color: black;
+  margin-right: 8px;
+}
+
+.social-icon:hover {
+  border: 2px solid rgba(220,220,220,0.5);
+  background-color: white;
 }
