@@ -1,0 +1,57 @@
+body {
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+}
+header {
+  height: 50px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+nav {
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+  height: 30px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 12px;
+}
+
+.fl-left {
+  float: left;
+  margin: 18px;
+}
+
+.fl-right {
+  float: right;
+  margin: 15px 18px;
+}
+
+.btn {
+  padding: 8px;
+  border: 1px solid #326891;
+  color: white;
+  background-color: #6288a5;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+nav a {
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+#space-cosmos {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  line-height: 18px;
+}
