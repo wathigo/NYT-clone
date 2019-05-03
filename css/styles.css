@@ -117,7 +117,7 @@ figcaption small{
   opacity: 0.9;
 }
 
-.author-info {
+.author-info, .author-content {
   width: 50%;
   margin: 0 auto;
 }
@@ -145,20 +145,79 @@ figcaption small{
 
 .social-icon {
   background-color: rgba(220,220,220,0.5);
+  border: 1px solid rgba(220,220,220,0.5);
   border-radius: 100%;
   color: black;
   padding: 7px;
   display: inline-block;
   height: 15px;
   width: 15px;
-
+  margin-right:
 }
-.author-info a{
+.author-info a, .read-comments a{
   color: black;
   margin-right: 8px;
 }
 
 .social-icon:hover {
-  border: 2px solid rgba(220,220,220,0.5);
   background-color: white;
+}
+ .author-content {
+   padding-top: 15px;
+ }
+
+ .author-content p{
+   font-size: 20px;
+   line-height: 1.4;
+ }
+ .author-content p a{
+   color: #6288a5;
+   text-decoration: none;
+   border-bottom: 1px solid #6288a5;
+   padding-bottom: 0;
+ }
+
+ .author-content p a:hover{
+   border-bottom: 0;
+ }
+
+.author-content iframe{
+  border: 0;
+}
+
+.author-content figure{
+  margin: 50px 0;
+}
+
+.author-content figure p{
+  font-size: 16px;
+}
+
+.author-content img{
+  width: 100%;
+  height: 400px;
+}
+
+.bottom-p p{
+  font-size: 13px;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.bottom-p p a{
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 0;
+}
+
+.bottom-p p a:hover{
+  text-decoration: underline;
+}
+
+.btn-lg{
+  width: 300px;
+}
+
+.read-comments{
+  margin-top: 40px;
 }
