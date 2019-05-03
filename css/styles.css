@@ -4,9 +4,11 @@ body {
   z-index: -1;
 }
 header {
+
   height: 50px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
@@ -52,6 +54,58 @@ nav a {
 #space-cosmos {
   text-decoration: none;
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 18px;
+}
+
+#space-cosmos:hover{
+  text-decoration: underline;
+}
+
+.space{
+  height: 50px;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+.heading-content{
+  width: 77%;
+  margin: 0 auto;
+}
+
+.heading-content img{
+  width: 100%;
+  height: 500px;
+  cursor: pointer;
+}
+
+.heading h3{
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+}
+
+.heading{
+  margin: 40px 0px 20px 200px;
+  width: 50%;
+}
+figcaption p{
+  margin: 0;
+  padding: 0;
+  opacity: 0.5;
+}
+
+.heading-content figure{
+  width: 100%;
+  margin: 0;
+}
+
+.heading-content figcaption{
+  width: 75%;
+}
+
+figcaption small{
+  opacity: 0.9;
 }
