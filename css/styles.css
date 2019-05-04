@@ -164,6 +164,7 @@ figcaption small{
 }
  .author-content {
    padding-top: 15px;
+   position: relative;
  }
 
  .author-content p{
@@ -220,4 +221,63 @@ figcaption small{
 
 .read-comments{
   margin-top: 40px;
+}
+
+.editors-picks {
+  width: 17%;
+  position: absolute;
+  right: 60px;
+  top: 1600px;
+}
+
+.editor {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.edt-p-img, .edt-p-pg {
+  height: 80px;
+}
+.edt-p-img {
+  margin-right: 2%;
+  width: 40%;
+  background-color: red;
+}
+.edt-p-pg {
+  width: 58%;
+  margin: 0;
+  line-height: 15px;
+  padding-top: 8px;
+  font-size: 11px;
+}
+
+.black {
+  color: black;
+}
+
+.faint {
+  opacity: 0.5;
+}
+
+.fainter {
+  opacity: 0.2;
+}
+
+h5 {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding-bottom: 14px;
+  margin-bottom: 20px;
+}
+
+.ul-on-hover {
+  text-decoration: none;
+}
+
+.ul-on-hover:hover {
+  text-decoration: underline;
+}
+
+.paid-post {
+  background-color: rgba(220,220,220,0.5);
+  padding: 6px;
 }
