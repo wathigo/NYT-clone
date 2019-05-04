@@ -100,7 +100,6 @@ nav a {
 figcaption p{
   margin: 0;
   padding: 0;
-  opacity: 0.5;
   font-size: 14px;
 }
 
@@ -260,7 +259,7 @@ figcaption small{
 }
 
 .fainter {
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 h5 {
@@ -310,4 +309,62 @@ h5 {
 
 .rm-margin{
   margin: 0;
+}
+
+.cosmos-extras{
+  width: 70%;
+  border-top: 2px solid black;
+  margin-right: 2%;
+}
+
+ .most-popular{
+   width: 28%;
+   border-top: 2px solid black;
+ }
+
+.extras-section{
+  margin-top: 80px;
+}
+
+.cosmos{
+  width: 32%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.mg-right{
+  margin-right: calc(4% / 2);
+}
+
+.cosmos img{
+  height: 180px;
+  width: 100%;
+  margin: 0;
+}
+
+.al-right{
+  text-align: right;
+}
+
+.faint-on-hover{
+  color: black;
+  text-decoration: none;
+}
+
+.faint-on-hover:hover{
+  opacity: 0.5;
+}
+
+.paid-post2{
+  background-color: rgba(220,220,220,0.5);
+}
+
+.paid-post2 figcaption img{
+  height: 32px;
+  width: 64px;
+  margin: 0 0 5px 10px;
+}
+
+.rm-border{
+  border: 0;
 }
