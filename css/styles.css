@@ -281,3 +281,33 @@ h5 {
   background-color: rgba(220,220,220,0.5);
   padding: 6px;
 }
+
+.signup-action{
+  position: absolute;
+  right: 60px;
+  top: 2450px;
+  width: 17%;
+  text-align: center;
+}
+
+.signup-action .btn{
+  margin: 0 auto;
+}
+
+.btn-md{
+  width: 200px;
+}
+
+.text{
+  width: 200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.text p{
+  margin: 10px 0;
+}
+
+.rm-margin{
+  margin: 0;
+}
