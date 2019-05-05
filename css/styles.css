@@ -319,14 +319,13 @@ h5 {
   margin: 0;
 }
 
-.cosmos-extras{
+.cosmos-extras, .editor-pics-bottom{
   width: 70%;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
   margin-right: 2%;
 }
 
-.cosmos-extras figure p {
+.cosmos-extras figure p, .editor-pics-bottom figure p {
   padding-bottom: 4px;
 }
 
@@ -372,6 +371,15 @@ h5 {
 
 .faint-on-hover:hover{
   opacity: 0.5;
+}
+
+.most-popular p{
+  font-size: 18px;
+}
+
+.most-popular p a{
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 500;
 }
 
 .paid-post2{
