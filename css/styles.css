@@ -22,9 +22,16 @@ nav {
 .logo {
   width: 200px;
   height: 30px;
+  padding-top: 12px;
+}
+
+.h-center{
   margin: 0 auto;
   display: block;
-  padding-top: 12px;
+}
+
+.rm-padding{
+  padding: 0;
 }
 
 header .fl-left {
@@ -262,10 +269,17 @@ figcaption small{
   opacity: 0.4;
 }
 
-h5 {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+.author {
   padding-bottom: 14px;
   margin-bottom: 20px;
+}
+
+.bd-top-light{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bd-bottom-light{
+  border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 .ul-on-hover {
@@ -378,7 +392,6 @@ h5 {
 }
 
 .most-popular p a{
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
 }
 
@@ -394,4 +407,74 @@ h5 {
 
 .rm-border{
   border: 0;
+}
+
+.bottom-nav-left{
+  width: 80%;
+}
+
+.bottom-nav-right{
+  width: 19%;
+  padding-top: 18px;
+}
+
+.bottom-nav-right p a{
+  color: #6288a5;
+  text-decoration: none;
+}
+
+.bottom-nav{
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.h-line{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 2px;
+  margin-bottom: 1px;
+}
+
+.bottom-nav-left-item{
+  width: 20%;
+  float: left;
+}
+
+.al-left{
+  text-align: left;
+}
+
+.bottom-nav-left-item p a{
+  color: black;
+  font-size: 14px;
+  padding: 0;
+}
+
+.bottom-nav-right-item{
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.bottom-nav-left-item p{
+  margin: 0 0 5px 0;
+}
+
+.pd-bottom-15{
+  padding-bottom: 15px;
+}
+
+.pd-bottom-10{
+  padding-bottom: 10px;
+}
+.pd-top{
+  padding-top: 15px;
+}
+
+.bottom-nav-right-item p a{
+  margin-top: 0;
+  color: black;
+}
+
+.bottom-nav-right-item i{
+  padding-right: 7px;
 }
