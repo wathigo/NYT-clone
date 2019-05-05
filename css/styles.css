@@ -307,20 +307,39 @@ h5 {
   margin: 10px 0;
 }
 
+.font-sm-1 {
+    font-size: 13px;
+}
+
+.font-sm-2 {
+  font-size: 14px;
+}
+
 .rm-margin{
   margin: 0;
 }
 
 .cosmos-extras{
   width: 70%;
-  border-top: 2px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   margin-right: 2%;
+}
+
+.cosmos-extras figure p {
+  padding-bottom: 4px;
 }
 
  .most-popular{
    width: 28%;
-   border-top: 2px solid black;
+   border-top: 1px solid black;
  }
+
+.most-popular p {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0,0,0,0.2);
+}
 
 .extras-section{
   margin-top: 80px;
