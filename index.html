@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <title></title>
+    <title>NYT</title>
   </head>
   <body>
     <header class="nav-conteiner">
@@ -17,7 +17,7 @@
           <a class="btn" href="#">SUBSCRIBE NOW</a>
           <a class="btn" href="#">LOG IN</a>
         </div>
-        <img class="logo" src="https://www.ascentconf.com/wp-content/uploads/2018/04/new-york-times-logo-png-transparent.png" alt="">
+        <img class="logo h-center" src="https://www.ascentconf.com/wp-content/uploads/2018/04/new-york-times-logo-png-transparent.png" alt="NYT logo">
 
       </nav>
     </header>
@@ -40,12 +40,12 @@
         <figure>
           <img src="images/Jumbo.jpg" alt="Big Bang’s Smoking Gun image">
           <figcaption>
-            <p>
+            <p class="faint">
               Alan Guth was one of the first physicists to hypothesize the existence of inflation,
               which explains how the universe expanded so uniformly and so quickly in the instant
               after the Big Bang 13.8 billion years ago.
             </p>
-            <p>
+            <p class="fainter">
               <small>
                 Rick Friedman for The New York Times
               </small>
@@ -57,15 +57,18 @@
       <section class="content-description">
         <div class="author-info">
 
-          <h5> By<u> Denis Overby</u></h5>
-          <p>March 17 2017</p>
-          <div class="icons">
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
+          <h5 class="bd-bottom-light author"> By <a href="#">Denis Overby</a></h5>
+          <p class="date fl-left">March 17 2017</p>
+          <div class="fl-right icons">
+            <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+            <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+            <a class="social-icon" href="#"><i class="fas fa-envelope"></i></a>
+            <a class="social-icon" href="#"><i class="fas fa-share"></i></a>
+            <a href="#"><i class="fas fa-bookmark fa-2x"></i></a>
+            <a href="#"><i class="far fa-comment fa-2x"></i></a>
+          </div>
+          <div style="clear:both" class="">
+
           </div>
        </div>
 
@@ -108,10 +111,6 @@
              evidence of inflation, proof, Dr. Kovac and his colleagues say, that Dr.
              Guth was correct.
          </p>
-         <div class="subscribe-action">
-           <p>You have 2 free articles remaining.</p>
-           <p> <a href="#">Subscribe to The Times</a> </p>
-         </div>
          <p>Inflation has been the workhorse of cosmology for 35 years,
            though many, including Dr. Guth, wondered whether it could ever be proved.
          </p>
@@ -190,8 +189,8 @@
                     picture-in-picture" allowfullscreen>
             </iframe>
             <figcaption>
-              <p>Stanford Professor Andrei Linde celebrates physics breakthrough</p>
-              <p> <small>Video by StanfordUniversity</small> </p>
+              <p class="faint">Stanford Professor Andrei Linde celebrates physics breakthrough</p>
+              <p class="fainter"> <small>Video by StanfordUniversity</small> </p>
             </figcaption>
           </figure>
           <p>
@@ -260,13 +259,13 @@
             “I’ve been hooked ever since,” he said.
           </p>
           <figure>
-            <img src="" alt="">
+            <img src="images/gravity.jpg" alt="Faint gravity spiral patterns">
             <figcaption>
-              <p>
+              <p class="faint">
                 The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns —
                 the signature of a universe being wrenched violently apart at its birth.
               </p>
-              <p> <small>Steffen Richter/Associated Press</small> </p>
+              <p class="fainter"> <small>Steffen Richter/Associated Press</small> </p>
             </figcaption>
           </figure>
           <p>
@@ -357,27 +356,28 @@
             a Harvard-Smithsonian astronomer who was not part of the team,
             “you wind up at inflation.”
           </p>
-          <p>
-            <small>
-              A version of this article appears in print on March 18, 2014,
-              on Page A1 of the New York edition with the headline:
-            </small>
-          </p>
-          <p>
-            <small>
+          <div class="bottom-p">
+            <p>
+                A version of this article appears in print on March 18, 2014,
+                on Page A1 of the New York edition with the headline:
+            </p>
+            <p>
               Space Ripples Reveal Big Bang’s Smoking Gun.
               <a href="#">Order Reprints</a> |
               <a href="#">Today’s Paper</a> |
               <a href="#">Subscribe</a>
-            </small>
-          </p>
+            </p>
+          </div>
+
           <div class="read-comments">
-            <button type="button" name="button">Read 365 comments</button>
-            <div class="icons">
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
-              <a href="#"></a>
+            <button class="btn btn-lg fl-left" type="button" name="button">Read 365 comments</button>
+            <div class="icons fl-right">
+              <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+              <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+              <a class="social-icon" href="#"><i class="fas fa-envelope"></i></a>
+              <a class="social-icon" href="#"><i class="fas fa-share"></i></a>
+            </div>
+            <div style="clear:both">
             </div>
           </div>
        </div>
@@ -385,360 +385,395 @@
       </section>
       <section class="editors-picks">
         <h5>Editors’ Picks</h5>
-        <br>
         <div class="editor">
-          <img src="" alt="">
-          <p>
-            <a href="#">
+          <img class="edt-p-img fl-left" src="images/edt-picks.jpg" alt="">
+          <p class="edt-p-pg fl-right">
+            <a class="black faint ul-on-hover" href="#">
               How Pete Buttigieg’s Meaningless Erudition Made Him the ‘Smart’ Candidate
             </a>
           </p>
+          <div style="clear: both"></div>
         </div>
         <div class="editor">
-          <img src="" alt="">
-          <p>
-           <a href="#">
+          <img class="edt-p-img fl-left" src="images/edt-picks.jpg" alt="">
+          <p class="edt-p-pg fl-right">
+           <a class="black faint ul-on-hover" href="#">
               The Racial Bias Built Into Photography
            </a>
           </p>
+          <div style="clear: both"></div>
         </div>
         <div class="editor">
-          <img src="" alt="">
-          <p>
-            <a href="#">
+          <img class="edt-p-img fl-left" src="images/edt-picks.jpg" alt="">
+          <p class="edt-p-pg fl-right">
+            <a class="black faint ul-on-hover" href="#">
               The Secret History of the Jews From Shanghai
             </a>
           </p>
+          <div style="clear: both"></div>
         </div>
-        <div class="editor">
-          <img src="" alt="">
-          <p>
-            <a href="#">
-              PAID POST: CARTIER WOMEN'S INITIATIVE
+        <div class="paid-post editor">
+          <img class="edt-p-img fl-left" src="images/edt-picks.jpg" alt="">
+          <p class="edt-p-pg fl-right">
+            <small><a class="black ul-on-hover" href="#">
+              <b>PAID POST: CARTIER WOMEN'S INITIATIVE</b>
               Honoring Women-Led Start-Ups Leading Change
-            </a>
+            </a></small>
           </p>
+          <div style="clear: both"></div>
         </div>
+
       </section>
       <section class="signup-action">
-        <h3>Sign up gor Science Times</h3>
-        <p>
-          We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.
-        </p>
-        <button type="button" name="button">SIGN UP</button>
+
+        <div class="text">
+          <h3 class="font-sm-2 rm-margin" >Sign up for Science Times</h3>
+          <p class="font-sm-1 faint">
+            We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.
+          </p>
+        </div>
+
+        <button class="btn btn-md" type="button" name="button">SIGN UP</button>
       </section>
     <section class="extras-section">
-      <div class="cosmos-extras">
+      <div class="cosmos-extras fl-left">
         <h3>More in Space and Cosmos</h3>
 
-        <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p> <small>Charles W Luzier/Reuters</small> </p>
+              <p class="al-right faint"> <small>Charles W Luzier/Reuters</small> </p>
               <p>
-                <a href="#">
+                <a class="faint-on-hover" href="#">
                   Falcon Heavy, SpaceX’s Giant Rocket, Launches Into Orbit, and Sticks Its Landings
                 </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 11</small> </p>
+          <p class="faint rm-margin date" > <small>April 11</small> </p>
         </div>
 
-        <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p>
+              <p class="al-right faint">
                 <small>
                   Event horizon telescope collaboretion, via National Science Foundation.
                 </small>
               </p>
               <p>
-                <a href="#">
+                <a class="faint-on-hover" href="#">
                   Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
                 </a>
               </p>
             </figcaption>
-          </figure>
-          <p> <small>April 10</small> </p>
+          </figure class="rm-margin">
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
 
-        <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos paid-post2">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p> <b>PAID POST: Kuwait funds fo Arav economic development.</b> </p>
-              <h5>See How Belgrades' New Rail Connections Smooths Capital Connections</h5>
-              <img src="" alt="">
+              <p class="rm-margin"> <small><b>PAID POST: Kuwait funds fo Arav economic development.</b></small> </p>
+              <h5 class="rm-margin rm-border">See How Belgrades' New Rail Connections Smooths Capital Connections</h5>
+              <img src="images/logo.jpg" alt="company logo">
             </figcaption>
           </figure>
-          <p> <small>April 10</small> </p>
         </div>
 
-        <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p>
+              <p class="al-right faint">
                 <small>
                   Event horizon telescope collaboretion, via National Science Foundation.
                 </small>
               </p>
               <p>
-                <a href="#">
+                <a class="faint-on-hover" href="#">
                   Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
                 </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 10</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
 
-        <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p>
+              <p class="al-right faint">
                 <small>
                   Event horizon telescope collaboretion, via National Science Foundation.
                 </small>
               </p>
               <p>
-                <a href="#">
+                <a class="faint-on-hover" href="#">
                   Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
                 </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 10</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
 
         <div class="cosmos">
-          <figure>
-            <img src="" alt="">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p>
+              <p class="al-right faint">
                 <small>
                   Event horizon telescope collaboretion, via National Science Foundation.
                 </small>
               </p>
               <p>
-                <a href="#">
+                <a class="faint-on-hover" href="#">
                   Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
                 </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 10</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
       </div>
 
-      <div class="most-popular">
+      <div class="most-popular fl-right">
         <h3>Most Popular</h3>
         <p>
-          Her Father Was Executed for Murder. She Still Wants to Know if He Did It.
+          <a class="faint-on-hover" href="#">Her Father Was Executed for Murder. She Still Wants to Know if He Did It.</a>
         </p>
         <p>
-          U.N.C. Charlotte Student Couldn’t Run, So He Tackled the Gunman
+          <a class="faint-on-hover" href="#">U.N.C. Charlotte Student Couldn’t Run, So He Tackled the Gunman</a>
         </p>
         <p>
-          Same Pictures. Same Places. 68 Years Apart.
+          <a class="faint-on-hover" href="#">Same Pictures. Same Places. 68 Years Apart.</a>
         </p>
         <p>
-          Opinion: James Comey: How Trump Co-opts Leaders Like Bill Barr
+          <a class="faint-on-hover" href="#">Opinion: James Comey: How Trump Co-opts Leaders Like Bill Barr</a>
         </p>
         <p>
-          Your Questions About Food and Climate Change, Answered
+          <a class="faint-on-hover" href="#">Your Questions About Food and Climate Change, Answered</a>
         </p>
         <p>
-          Mueller Objected to Barr’s Description of Russia Investigation’s Findings on Trump
+          <a class="faint-on-hover" href="#">
+            Mueller Objected to Barr’s Description of Russia Investigation’s Findings on Trump</a>
+          </a>
         </p>
         <p>
-          William Barr Hearing: Highlights of His Testimony
+          <a class="faint-on-hover" href="#">William Barr Hearing: Highlights of His Testimony</a>
         </p>
         <p>
-          The Price of This Artist’s Work? A Conversation About the Horrors of War
+          <a class="faint-on-hover" href="#">
+            The Price of This Artist’s Work? A Conversation About the Horrors of War
+          </a>
         </p>
         <p>
-          Stephen Colbert Is Not a Fan of the Attorney General
+          <a class="faint-on-hover" href="#">Stephen Colbert Is Not a Fan of the Attorney General</a>
         </p>
         <p>
-          Opinion: Bob Mueller’s Extraordinary Letter to Bill Barr
+          <a class="faint-on-hover" href="#">Opinion: Bob Mueller’s Extraordinary Letter to Bill Barr</a>
+        </p>
+        <p>
+          <a class="faint-on-hover" href="#">Opinion: Fair Play Is No Match for Foul</a>
         </p>
       </div>
-      <div class="editor-pics-bottom">
-        <div class="editor-bottom">
-          <figure>
-            <img src="" alt="">
+
+      <div class="editor-pics-bottom fl-left">
+        <h3>Editors' picks</h3>
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p><small>A pic grabbed from twitter</small>  </p>
+              <p class="al-right faint">
+                <small>
+                  Event horizon telescope collaboretion, via National Science Foundation.
+                </small>
+              </p>
               <p>
-                How Pete Buttigieg’s Meaningless Erudition Made Him the ‘Smart’ Candidate
+                <a class="faint-on-hover" href="#">
+                  Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
+                </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 20</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
 
-        <div class="editor-bottom">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos mg-right">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p><small>A pic grabbed from twitter</small>  </p>
+              <p class="al-right faint">
+                <small>
+                  Event horizon telescope collaboretion, via National Science Foundation.
+                </small>
+              </p>
               <p>
-                How Pete Buttigieg’s Meaningless Erudition Made Him the ‘Smart’ Candidate
+                <a class="faint-on-hover" href="#">
+                  Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
+                </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 20</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
 
-        <div class="editor-bottom">
-          <figure>
-            <img src="" alt="">
+        <div class="cosmos">
+          <figure class="rm-margin">
+            <img src="images/edt-picks.jpg" alt="random image">
             <figcaption>
-              <p><small>A pic grabbed from twitter</small>  </p>
+              <p class="al-right faint">
+                <small>
+                  Event horizon telescope collaboretion, via National Science Foundation.
+                </small>
+              </p>
               <p>
-                How Pete Buttigieg’s Meaningless Erudition Made Him the ‘Smart’ Candidate
+                <a class="faint-on-hover" href="#">
+                  Darkness Visible, Finally: Astronomers Capture First Ever Image of a Black Hole
+                </a>
               </p>
             </figcaption>
           </figure>
-          <p> <small>April 20</small> </p>
+          <p class="faint rm-margin date"> <small>April 10</small> </p>
         </div>
+      </div>
+
+      <div style="clear:both">
+      </div>
+
+    </section>
+    <div class="h-line">
+
+    </div>
+    <section class="bottom-nav bd-bottom-light pd-bottom-10">
+      <div class="bottom-nav-left fl-left">
+        <img class="logo rm-padding rm-margin fl-left" src="https://www.ascentconf.com/wp-content/uploads/2018/04/new-york-times-logo-png-transparent.png" alt="NYT logo">
+        <div style="clear:both">
+        </div>
+        <div class="bottom-nav-left-item al-left">
+          <h5 class="rm-margin pd-top-15 pd-bottom-10">NEWS</h5>
+          <p> <a class="ul-on-hover" href="#">Home Page</a> </p>
+          <p> <a class="ul-on-hover" href="#">World</a> </p>
+          <p> <a class="ul-on-hover" href="#">U.S</a> </p>
+          <p> <a class="ul-on-hover" href="#">Politics</a> </p>
+          <p> <a class="ul-on-hover" href="#">New York</a> </p>
+          <p> <a class="ul-on-hover" href="#">Business</a> </p>
+          <p> <a class="ul-on-hover" href="#">Tech</a> </p>
+          <p> <a class="ul-on-hover" href="#">Scince</a> </p>
+          <p> <a class="ul-on-hover" href="#">Sports</a> </p>
+          <p> <a class="ul-on-hover" href="#">Obituaries</a> </p>
+          <p> <a class="ul-on-hover" href="#">Today's Paper</a> </p>
+          <p> <a class="ul-on-hover" href="#">Corrections</a> </p>
+        </div>
+
+        <div class="bottom-nav-left-item al-left">
+          <h5 class="rm-margin pd-top-15 pd-bottom-10">OPINION</h5>
+          <p> <a class="ul-on-hover" href="#">Today's Opinion</a> </p>
+          <p> <a class="ul-on-hover" href="#">Op-Ed Columnists</a> </p>
+          <p> <a class="ul-on-hover" href="#">Editorials</a> </p>
+          <p> <a class="ul-on-hover" href="#">Op-Ed Contributors</a> </p>
+          <p> <a class="ul-on-hover" href="#">Letters</a> </p>
+          <p> <a class="ul-on-hover" href="#">Sunday Review</a> </p>
+          <p> <a class="ul-on-hover" href="#">Video: Opinion</a> </p>
+        </div>
+
+        <div class="bottom-nav-left-item al-left">
+          <h5 class="rm-margin pd-top-15 pd-bottom-10">ARTS</h5>
+          <p> <a class="ul-on-hover" href="#">Today's Arts</a> </p>
+          <p> <a class="ul-on-hover" href="#">Art & Design</a> </p>
+          <p> <a class="ul-on-hover" href="#">Books</a> </p>
+          <p> <a class="ul-on-hover" href="#">Dance</a> </p>
+          <p> <a class="ul-on-hover" href="#">Movies</a> </p>
+          <p> <a class="ul-on-hover" href="#">Music</a> </p>
+          <p> <a class="ul-on-hover" href="#">Pop Culture</a> </p>
+          <p> <a class="ul-on-hover" href="#">Television</a> </p>
+          <p> <a class="ul-on-hover" href="#">Theater</a> </p>
+          <p> <a class="ul-on-hover" href="#">Video: Arts</a> </p>
+        </div>
+
+        <div class="bottom-nav-left-item al-left">
+          <h5 class="rm-margin pd-top-15 pd-bottom-10">LIVING</h5>
+          <p> <a class="ul-on-hover" href="#">Automobiles</a> </p>
+          <p> <a class="ul-on-hover" href="#">Crossword</a> </p>
+          <p> <a class="ul-on-hover" href="#">Food</a> </p>
+          <p> <a class="ul-on-hover" href="#">Education</a> </p>
+          <p> <a class="ul-on-hover" href="#">Style</a> </p>
+          <p> <a class="ul-on-hover" href="#">Health</a> </p>
+          <p> <a class="ul-on-hover" href="#">Jobs</a> </p>
+          <p> <a class="ul-on-hover" href="#">Magazine</a> </p>
+          <p> <a class="ul-on-hover" href="#">Real Estate</a> </p>
+          <p> <a class="ul-on-hover" href="#">T Magazine</a> </p>
+          <p> <a class="ul-on-hover" href="#">Travel</a> </p>
+          <p> <a class="ul-on-hover" href="#">Weddings</a> </p>
+        </div>
+
+        <div class="bottom-nav-left-item al-left">
+          <h5 class="rm-margin pd-top-15 pd-bottom-10">MORE</h5>
+          <p> <a class="ul-on-hover" href="#">Reader Center</a> </p>
+          <p> <a class="ul-on-hover" href="#">Wirecutter</a> </p>
+          <p> <a class="ul-on-hover" href="#">Live Events</a> </p>
+          <p> <a class="ul-on-hover" href="#">The Learning Network</a> </p>
+          <p> <a class="ul-on-hover" href="#">Tools & Services</a> </p>
+          <p> <a class="ul-on-hover" href="#">N.Y.C. Events Guide</a> </p>
+          <p> <a class="ul-on-hover" href="#">Multimedia</a> </p>
+          <p> <a class="ul-on-hover" href="#">Photography</a> </p>
+          <p> <a class="ul-on-hover" href="#">Video</a> </p>
+          <p> <a class="ul-on-hover" href="#">Newsletters</a> </p>
+          <p> <a class="ul-on-hover" href="#">NYT Store</a> </p>
+          <p> <a class="ul-on-hover" href="#">Times Journeys</a> </p>
+          <p> <a class="ul-on-hover" href="#">Manage My Account</a> </p>
+        </div>
+      </div>
+
+      <div class="bottom-nav-right fl-right">
+        <p class="fl-right rm-margin"> <a href="#"> <small>Go to the page <i class="fas fa-angle-double-right"></i></small> </a> </p>
+        <div style="clear:both">
+        </div>
+        <div class="bottom-nav-right-item">
+          <h5 class="rm-margin pd-bottom-10">SUBSCRIBE</h5>
+          <p class="rm-margin pd-bottom-15"><i class="fas fa-truck"></i> <b><a class="ul-on-hover" href="#">Home Delivery</a></b> </p>
+          <p class="rm-margin pd-bottom-15"><i class="fas fa-anchor"></i> <b><a class="ul-on-hover" href="#">Digital Subscriptions</a></b> </p>
+          <p class="rm-margin pd-bottom-15"><i class="fas fa-chess-board"></i> <b><a class="ul-on-hover" href="#">Crossword</a></b> </p>
+          <p class="rm-margin pd-bottom-15"><i class="fas fa-utensils"></i> <b><a class="ul-on-hover" href="#">Cooking</a></b> </p>
+          <div class="bd-bottom-light">
+            <p class="rm-margin ul-on-hover pd-bottom-10"> <small><a href="#"> Email Newsletters</a> </small></p>
+            <p class="rm-margin ul-on-hover pd-bottom-10"> <small><a href="#"> Corporate Subscriptions </a></small></p>
+            <p class="rm-margin ul-on-hover pd-bottom-10"> <small> <a href="#"> Education Rate </a></small> </p>
+          </div>
+          <div>
+            <p class="rm-margin ul-on-hover pd-bottom-10 pd-top-15"><small> <a href="#"> Mobile Applications </a></small> </p>
+            <p class="rm-margin ul-on-hover pd-bottom-10"> <small> <a href="#"> Replica Edition </a></small> </p>
+          </div>
+        </div>
+      </div>
+      <div style="clear:both">
       </div>
     </section>
 
-    <section class="bottom-nav">
-      <img src="" alt="">
-      <div class="bottom-nav-right">
-        <div class="bottom-nav-right-item">
-          <h4>NEWS</h4>
-          <p> <a href="#">Home Page</a> </p>
-          <p> <a href="#">World</a> </p>
-          <p> <a href="#">U.S</a> </p>
-          <p> <a href="#">Politics</a> </p>
-          <p> <a href="#">New York</a> </p>
-          <p> <a href="#">Business</a> </p>
-          <p> <a href="#">Tech</a> </p>
-          <p> <a href="#">Scince</a> </p>
-          <p> <a href="#">Sports</a> </p>
-          <p> <a href="#">Obituaries</a> </p>
-          <p> <a href="#">Today's Paper</a> </p>
-          <p> <a href="#">Corrections</a> </p>
-        </div>
-
-        <div class="bottom-nav-right-item">
-          <h4>OPINION</h4>
-          <p> <a href="#">Today's Opinion</a> </p>
-          <p> <a href="#">Op-Ed Columnists</a> </p>
-          <p> <a href="#">Editorials</a> </p>
-          <p> <a href="#">Op-Ed Contributors</a> </p>
-          <p> <a href="#">Letters</a> </p>
-          <p> <a href="#">Sunday Review</a> </p>
-          <p> <a href="#">Video: Opinion</a> </p>
-        </div>
-
-        <div class="bottom-nav-right-item">
-          <h4>ARTS</h4>
-          <p> <a href="#">Today's Arts</a> </p>
-          <p> <a href="#">Art & Design</a> </p>
-          <p> <a href="#">Books</a> </p>
-          <p> <a href="#">Dance</a> </p>
-          <p> <a href="#">Movies</a> </p>
-          <p> <a href="#">Music</a> </p>
-          <p> <a href="#">Pop Culture</a> </p>
-          <p> <a href="#">Television</a> </p>
-          <p> <a href="#">Theater</a> </p>
-          <p> <a href="#">Video: Arts</a> </p>
-        </div>
-
-        <div class="bottom-nav-right-item">
-          <h4>LIVING</h4>
-          <p> <a href="#">Automobiles</a> </p>
-          <p> <a href="#">Crossword</a> </p>
-          <p> <a href="#">Food</a> </p>
-          <p> <a href="#">Education</a> </p>
-          <p> <a href="#">Style</a> </p>
-          <p> <a href="#">Health</a> </p>
-          <p> <a href="#">Jobs</a> </p>
-          <p> <a href="#">Magazine</a> </p>
-          <p> <a href="#">Real Estate</a> </p>
-          <p> <a href="#">T Magazine</a> </p>
-          <p> <a href="#">Travel</a> </p>
-          <p> <a href="#">Weddings</a> </p>
-        </div>
-
-        <div class="bottom-nav-right-item">
-          <h4>MORE</h4>
-          <p> <a href="#">Reader Center</a> </p>
-          <p> <a href="#">Wirecutter</a> </p>
-          <p> <a href="#">Live Events</a> </p>
-          <p> <a href="#">The Learning Network</a> </p>
-          <p> <a href="#">Tools & Services</a> </p>
-          <p> <a href="#">N.Y.C. Events Guide</a> </p>
-          <p> <a href="#">Multimedia</a> </p>
-          <p> <a href="#">Photography</a> </p>
-          <p> <a href="#">Video</a> </p>
-          <p> <a href="#">Newsletters</a> </p>
-          <p> <a href="#">NYT Store</a> </p>
-          <p> <a href="#">Times Journeys</a> </p>
-          <p> <a href="#">Manage My Account</a> </p>
-        </div>
+    <div class="bottom-nav-bottom al-center pd-top-10">
+      <a class="ul-on-hover" href="#">© 2019 The New York Times Company</a>
+      <a class="ul-on-hover" href="#">Contact Us</a>
+      <a class="ul-on-hover" href="#">Work with us</a>
+      <a class="ul-on-hover" href="#">Advertise</a>
+      <a class="ul-on-hover" href="#">Your Ad Choices</a>
+      <a class="ul-on-hover" href="#">Privacy</a>
+      <a class="ul-on-hover" href="#">Terms of Service</a>
+      <a class="ul-on-hover" href="#">Terms of Sale</a>
+      <a class="ul-on-hover" href="#">Site Map</a>
+      <a class="ul-on-hover" href="#">Help</a>
+      <a class="ul-on-hover" href="#">Subscriptions</a>
+    </div>
+  </div>
+    <footer class="rm-padding">
+      <p class="al-center pd-top-10 rm-margin"> <b>May 3-5.</b> Enjoy unlimited access</p>
+      <div class="learn-more-div">
+        <p class="fl-right"><small><b>LEARN MORE</b></small><i class="fas fa-chevron-up"></i></p>
       </div>
-
-      <div class="bottom-nav-left">
-        <p> <small>Go to the page</small> </p>
-        <span>
-          <img src="" alt="">
-        </span>
-        <h4>SUBSCRIBE</h4>
-
-        <div class="bottom-nav-left-item">
-          <img src="" alt="">
-          <h4>Home Delivery</h4>
-        </div>
-
-        <div class="bottom-nav-left-item">
-          <img src="" alt="">
-          <h4>Digital Subscriptions</h4>
-        </div>
-
-        <div class="bottom-nav-left-item">
-          <img src="" alt="">
-          <h4>Crossword</h4>
-        </div>
-
-        <div class="bottom-nav-left-item">
-          <img src="" alt="">
-          <h4>Cooking</h4>
-        </div>
-
-        <p> <a href="#">Email Newsletters</a> </p>
-        <p> <a href="#">Corporate Subscriptions</a> </p>
-        <p> <a href="#">Education Rate</a> </p>
-        <br>
-        <p> <a href="#">Mobile Applications</a> </p>
-        <p> <a href="#">Replica Edition</a> </p>
-      </div>
-
-      <div class="bottom-nav-bottom">
-        <p> <a href="#"> <small>© 2019 The New York Times Company</small> </a> </p>
-        <p> <a href="#"> <small>Contact Us</small> </a> </p>
-        <p> <a href="#"> <small>Work with us</small> </a> </p>
-        <p> <a href="#"> <small>Advertise</small> </a> </p>
-        <p> <a href="#"> <small>Your Ad Choices</small> </a> </p>
-        <p> <a href="#"> <small>Privacy</small> </a> </p>
-        <p> <a href="#"> <small>Terms of Service</small> </a> </p>
-        <p> <a href="#"> <small>Terms of Sale</small> </a> </p>
-        <p> <a href="#"> <small>Site Map</small> </a> </p>
-        <p> <a href="#"> <small>Help</small> </a> </p>
-        <p> <a href="#"> <small>Subscriptions</small> </a> </p>
-      </div>
-    </section>
-    <footer>
-      <p> <b>May 3-5.</b> Enjoy unlimited access</p>
     </footer>
-    </body>
+  </body>
 </html>
