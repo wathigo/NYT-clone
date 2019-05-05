@@ -5,7 +5,7 @@ body {
 }
 header {
 
-  height: 50px;
+  height: 40px;
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   background-color: white;
@@ -22,7 +22,7 @@ nav {
 .logo {
   width: 200px;
   height: 30px;
-  padding-top: 12px;
+  padding-top: 6px;
 }
 
 .h-center{
@@ -35,11 +35,11 @@ nav {
 }
 
 header .fl-left {
-  margin: 18px;
+  margin: 12px;
 }
 
 header .fl-right {
-  margin: 15px 18px;
+  margin: 9px 12px;
 }
 
 .fl-left {
@@ -509,6 +509,7 @@ footer {
   background-color: white;
   border-top: 1px solid black;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .learn-more-div {
@@ -517,11 +518,10 @@ footer {
   top: 1px;
 }
 
-.learn-more-div p{
+.learn-more-div p:first-child{
   font-size: 12px
 }
 
-.learn-more-div a {
+.learn-more-div i {
   padding-left: 30px;
-  color: black;
 }
