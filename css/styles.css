@@ -525,3 +525,7 @@ footer {
 .learn-more-div i {
   padding-left: 30px;
 }
+
+iframe{
+  width: 100%;
+}
